@@ -64,6 +64,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem "active_model_serializers", "~> 0.8.0"
 gem 'execjs'
-gem 'coffee-script-source', '1.8.0'
-gem 'bcrypt', '~> 3.1.7'
-gem 'rack-cors'
