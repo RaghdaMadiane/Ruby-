@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    
+  </head>
+
+  <body>
+  <% if notice%>
+  <%= notice%>
+  <%end%>
+  <% if alert%>
+  <%= alert%>
+  <%end%>
+    <%= yield %>
+  </body>
+</html>

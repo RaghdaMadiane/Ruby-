@@ -1,0 +1,12 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </div>
+</nav>
+<% if user_signed_in?%>
+gi
+
+<%else%>
+<%= link_to "Sign Up" , new_user_registration_path%>
+<%= link_to "login" , new_user_session_path%>
+<%end%>
